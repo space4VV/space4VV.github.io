@@ -5,7 +5,7 @@ categories: [Tech]
 tags: [Personal]
 ---
 
-Over the past four years at Bosch Rexroth, I’ve discovered that being a data scientist is about much more than just building models or crunching numbers. Inspired by a recent [blog post](https://medium.com/@nirmal.budhathoki/how-data-science-roles-vary-across-the-tech-companies-cef1893a56a5) on the diversity of data science roles, I took some time to reflect on how my own journey has evolved—and how it stands apart from the “pure tech” roles often described online.
+Over the past four years at Bosch Rexroth, I’ve discovered that being a data scientist is about much more than just building models or crunching numbers. Inspired by a recent [blog post](https://medium.com/@nirmal.budhathoki/how-data-science-roles-vary-across-the-tech-companies-cef1893a56a5) on the diversity of data science roles, I took some time to reflect on how my own journey has evolved, and how it stands apart from the “pure tech” roles often described online.
 
 At Bosch Rexroth, my day-to-day work is a unique blend of technology, strategy, project management, and mentorship. I’m not only developing technical solutions, but also shaping project direction, aligning with stakeholders, and guiding others. This cross-disciplinary approach makes my role dynamic, challenging, and deeply rewarding. In this post, I’ll share what I do as a data scientist in Data & AI Solutions, and why this mix of responsibilities keeps me excited every day.
 
