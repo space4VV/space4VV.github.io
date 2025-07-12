@@ -16,7 +16,8 @@ This is the personal blog of **Vishnu Valsalan**, a Data Scientist at Bosch Rexr
 - **Jekyll** - Static site generator
 - **Chirpy Theme** - Modern Jekyll theme (see credits below)
 - **Custom CSS/JS** - Enhanced styling and interactions
-- **GitHub Pages** - Hosting platform
+- **GitHub Pages** - Hosting platform with automatic deployment
+- **GitHub Actions** - CI/CD pipeline with security checks
 - **Font Awesome** - Modern icons
 - **Google Fonts** - Inter typography
 
@@ -35,8 +36,8 @@ This is the personal blog of **Vishnu Valsalan**, a Data Scientist at Bosch Rexr
 
 ### Prerequisites
 
-- Ruby 3.0 or higher
-- Jekyll 4.0 or higher
+- Ruby 3.3 or higher
+- Jekyll 4.4 or higher
 - Git
 
 ### Installation
@@ -57,7 +58,23 @@ This is the personal blog of **Vishnu Valsalan**, a Data Scientist at Bosch Rexr
    bundle exec jekyll serve --livereload
    ```
 
-4. Open your browser and visit `http://localhost:4000`
+## 🚀 Deployment
+
+This blog is automatically deployed to GitHub Pages:
+
+### Automatic Deployment
+- **Trigger**: Every push to the `main` branch
+- **Platform**: GitHub Pages
+- **URL**: https://space4VV.github.io
+- **Build Process**: GitHub Actions with Jekyll
+- **Security Checks**: HTML-Proofer validation included
+
+### Manual Deployment
+If you need to deploy manually:
+```bash
+bundle exec jekyll build
+# The _site directory will be generated
+```
 
 ## 📁 Project Structure
 
@@ -65,11 +82,13 @@ This is the personal blog of **Vishnu Valsalan**, a Data Scientist at Bosch Rexr
 space4VV.github.io/
 ├── _posts/                 # Blog posts
 ├── _tabs/                  # Static pages (About, etc.)
-├── _includes/              # Custom includes
 ├── assets/
-│   ├── css/custom.css      # Custom styles
-│   └── js/modern.js        # Custom JavaScript
+│   ├── css/                # Custom styles
+│   ├── js/modern.js        # Custom JavaScript
+│   ├── img/                # Images (including avatar)
+│   └── lib/                # Third-party libraries (git submodule)
 ├── _config.yml             # Site configuration
+├── .github/workflows/      # GitHub Actions for deployment
 └── index.html              # Homepage
 ```
 
@@ -102,10 +121,13 @@ This blog is built on the **[Chirpy Jekyll Theme](https://github.com/cotes2020/j
 ### Custom Enhancements
 The original Chirpy theme has been enhanced with:
 - Custom CSS styling and animations
-- Modern JavaScript interactions
+- Modern JavaScript interactions with security best practices
 - Enhanced typography and layout
 - Improved mobile responsiveness
 - Professional branding elements
+- Security-hardened codebase
+- Automated deployment pipeline
+- Comprehensive documentation
 
 ## 📞 Contact
 

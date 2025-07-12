@@ -218,12 +218,10 @@ document.addEventListener('DOMContentLoaded', function() {
 // Utility functions
 function performSearch(query) {
     // Implement search functionality
-    console.log('Searching for:', query);
 }
 
 function filterByTag(tag) {
     // Implement tag filtering
-    console.log('Filtering by tag:', tag);
 }
 
 function shareContent(url, title) {
